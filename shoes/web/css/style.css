@@ -1,0 +1,296 @@
+.container{width: 1000px;}
+body { padding-top: 50px; }
+a{
+    text-decoration: none;
+}
+.err
+{
+    z-index: 2;
+    float:right;
+    position: relative;
+    margin-top: -24px;
+    margin-right: 8px;
+}
+
+
+
+.item{
+
+    width: 90%;
+    margin: 0px;
+    height:320px;
+}
+.img{
+
+    width: 90%;
+    margin: 0 auto;
+    object-fit:cover;
+}
+.deal{
+    border: 1px solid grey;
+    
+    height:130px;
+    margin-top:10px;
+}
+.bigimage{
+    
+    width: 100%;
+    height:300px;
+    margin:20px 0;
+}
+.thumbnail img{
+    height:240px;
+    object-fit:cover;
+}
+.topsales{
+    
+    height:200px;
+    margin:30px;
+}
+.img-rounded{
+    border:1px solid #FFEFD5;
+}
+.magic{
+     
+    height:200px;
+    margin:30px;
+
+}
+#p1{
+    font-size:40px;
+    color:red;
+}
+.btn btn-danger hover{
+    background:green;
+    color:black;
+
+}
+#p2{
+    font-size:20px;
+}
+
+.bigimage1{
+    
+
+
+}
+#t1{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    background-image:url("E:/Internship/bootstrap/images/clarks.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#t2{
+    height:300px;
+
+    width:100%;
+
+    object-fit:cover;
+    background-image:url("E:/Internship/bootstrap/images/college.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bi2 img{
+
+
+
+    border:2px solid #FFB6C1;
+}
+.circle{
+    
+    height:330px;
+
+
+}
+.circle img{
+    border-radius: 100px;
+    border:2px solid red;
+
+
+}
+.brand
+{
+    height:800px;
+    
+
+}
+.brandlogo
+{width:100%;
+ height:100px;
+ float:right;
+
+ object-fit:cover;
+}
+
+.brandlogo img
+{
+    height:100px;
+    width:30%;
+    margin:3px;
+    object-fit:cover;
+}
+#bl {
+    width:100%;
+    height:60px;
+
+    border:2px solid red;
+    float:left;
+}
+.content
+{
+    width:99%;
+    height:500px;
+    margin:5px;
+
+}
+.content h1
+{
+    color:red;
+
+}
+
+.footer{
+
+
+position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+
+
+
+.f1{
+
+
+
+
+    height:300px;
+    width:35%;
+    float:left;
+
+    margin:10px;
+
+
+}
+#f2{
+
+    margin:20px;
+
+
+}
+.btn-primary
+{
+
+
+    border-radius:30px;
+}
+.block{
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+.block1{
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+.block ul li{
+    border:1px solid #bbb;padding:0 25px;margin:0 7px 7px 0;cursor: pointer;display: inline-block;line-height: 50px; text-transform: uppercase;
+}
+.block ul{
+    list-style: none;
+    text-align: center;
+}
+.block ul li a{
+    text-decoration: none;
+    color:#5f5d5c;
+}
+.block ul li:hover {
+    border:1px solid red;
+}
+
+
+/* jssor slider loading skin oval css */
+
+.jssorl-oval img {
+    animation-name: jssorl-oval;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+.jssorb05 {
+    position: absolute;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url('../images/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+/* jssor slider arrow navigator skin 22 css */
+/*
+.jssora22l                  (normal)
+.jssora22r                  (normal)
+.jssora22l:hover            (normal mouseover)
+.jssora22r:hover            (normal mouseover)
+.jssora22l.jssora22ldn      (mousedown)
+.jssora22r.jssora22rdn      (mousedown)
+.jssora22l.jssora22lds      (disabled)
+.jssora22r.jssora22rds      (disabled)
+*/
+.jssora22l {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url('../images/ChevronLeft.png') center center no-repeat;
+    overflow: hidden;
+}
+.jssora22r{
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url('../images/ChevronRight.png') center center no-repeat;
+    overflow: hidden;
+}
+.jssora22l { background-position: -30px -30px; }
+.jssora22r { background-position: -60px -30px; }
+/*.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }*/
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+.jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+.jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+

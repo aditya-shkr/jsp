@@ -1,0 +1,30 @@
+SMAP
+view_jsp.java
+JSP
+*S JSP
+*F
++ 0 view.jsp
+view.jsp
++ 1 header.jsp
+header.jsp
++ 2 db.jsp
+db.jsp
++ 3 footer.jsp
+footer.jsp
+*L
+5,4:52
+5#1,15:55
+8#0:70
+1#2,2:71
+7,9:73
+9#0,30:82
+38,7:112
+44,2:119
+46,5:121,3
+51:136,5
+52:141
+53:142,3
+54,130:145
+5#3,59:274
+183#0,183:332
+*E

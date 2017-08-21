@@ -1,0 +1,54 @@
+.main
+{
+    width:500px;
+    height:300px;
+    
+    margin:auto;
+    padding:10px;
+    text-align: center;
+    padding-top:50px;  
+    background-color: highlight;
+    margin-top: 100px;
+    box-shadow: 2px 2px 12px black;
+    border-radius: 10px;
+}
+.num
+{
+    
+    float:left;
+    align-items: center;
+    width:500px;
+    height: 80px;
+    
+}
+.left
+{
+    
+    float:left;
+    align-items: center;
+    width:250px;
+    height: 80px;
+    
+}
+.right
+{
+    
+    float:left;
+    align-items: center;
+    width:250px;
+    height: 80px;
+    
+}
+
+.rslt
+{
+    margin-top: 10px;
+    float:left;
+   
+    text-align: center;
+    width:500px;
+    height:80px;
+    
+}
+
+

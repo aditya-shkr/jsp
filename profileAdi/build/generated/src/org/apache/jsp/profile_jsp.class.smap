@@ -1,0 +1,21 @@
+SMAP
+profile_jsp.java
+JSP
+*S JSP
+*F
++ 0 profile.jsp
+profile.jsp
++ 1 header.jsp
+header.jsp
++ 2 db.jsp
+db.jsp
++ 3 footer.jsp
+footer.jsp
+*L
+5,2:52
+5#1,12:54
+7#0:66
+5#2,8:67
+8#0,17:75
+5#3,9:92
+*E

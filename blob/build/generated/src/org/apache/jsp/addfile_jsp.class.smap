@@ -1,0 +1,19 @@
+SMAP
+addfile_jsp.java
+JSP
+*S JSP
+*F
++ 0 addfile.jsp
+addfile.jsp
++ 1 header.jsp
+header.jsp
++ 2 db.jsp
+db.jsp
+*L
+5,2:51
+5#1,11:53
+7#0:64
+5#2,8:65
+12,2:73
+8#0,15:75
+*E

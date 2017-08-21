@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar ">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>   
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo1.png"></a>                
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="home.jsp">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEN<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">BRANDS</a></li>
+                    <li><a href="#">SALE</a></li>
+                </ul>
+                <div style="float: right; top: 0;">
+                <form class="navbar-form navbar-left">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            <a class="navbar-brand" href="#"><span class="fa fa-shopping-cart"/></a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal" ><span class="fa fa-user"></span> LOG IN</a></li>
+                </ul>
+            </div>               
+            </div>            
+        </div>
+    </nav>
+
+    </body>
+</html>
+
+<form name="regform" action="insert.jsp">
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <input type="text"  class="form-control" name="fname" placeholder="Firstname" required><span class="fa fa-user err"/>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-4">
+                                    <input type="text"  class="form-control" name="lname" placeholder="Lastname" required><span class="fa fa-user err"/>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" name="mobile" placeholder="Mobile" required minlength="10" maxlength="10"><span class="fa fa-mobile err"/>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" name="street" placeholder="Street Address" required><span class="fa fa-map-marker err"/>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" name="city" placeholder="City" required ><span class="fa fa-map-marker err"/>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+
+                                <div class="col-sm-4">
+
+                                    <select id="region_id" name="region_id" title="State/Province" class="form-control" defaultvalue="0">
+                                        <option value="">Please select region, state or province</option>
+                                        <option value="485">Andaman Nicobar</option><option value="486">Andhra Pradesh</option><option value="487">Arunachal Pradesh</option><option value="488">Assam</option><option value="489">Bihar</option><option value="490">Chandigarh</option><option value="491">Chhattisgarh</option><option value="492">Dadra Nagar Haveli</option><option value="493">Daman Diu</option><option value="494">Delhi</option><option value="495">Goa</option><option value="496">Gujarat</option><option value="497">Haryana</option><option value="498">Himachal Pradesh</option><option value="499">Jammu Kashmir</option><option value="500">Jharkhand</option><option value="501">Karnataka</option><option value="502">Kerala</option><option value="503">Lakshadweep</option><option value="504">Madhya Pradesh</option><option value="505">Maharashtra</option><option value="506">Manipur</option><option value="507">Meghalaya</option><option value="508">Mizoram</option><option value="509">Nagaland</option><option value="510">Orissa</option><option value="511">Pondicherry</option><option value="512">Punjab</option><option value="513">Rajasthan</option><option value="514">Sikkim</option><option value="515">Tamil Nadu</option><option value="516">Telangana</option><option value="517">Tripura</option><option value="518">Uttar Pradesh</option><option value="519">Uttaranchal</option><option value="520">West Bengal</option></select>
+                                </div>
+                            </div>
+                        </form>

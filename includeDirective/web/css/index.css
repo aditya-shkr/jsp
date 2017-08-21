@@ -1,0 +1,409 @@
+.main
+{
+	width:auto;
+	margin:auto;
+	height:auto;
+	
+}
+.header{
+	
+	
+	height:150px;
+	background-color:#eee; 
+	position:relative;
+	margin:auto;
+}
+.logo
+{
+	width:170px;
+	height:120px;
+	background-image:url('../img/logo.jpg');
+	background-repeat:no-repeat;
+	margin-left:100px;
+	float:left;
+	margin-top:30px;
+	
+	
+}
+
+
+.menu
+{	float:left;
+	
+	width:auto;
+	margin-top:94px;
+	
+}
+
+
+.menu  ul
+{
+	float:left;
+	list-style:none;
+	width:auto;
+	height:25px;
+	
+	
+}
+
+.menu ul li
+{
+	float:left;
+	width:auto;
+	background:white;
+	height:20px;
+	text-align:center;
+	padding:8px;
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+	border-top:4px solid red;
+	cursor:pointer;	
+	
+}
+.menu ul li a
+{
+	font-size:17px;
+	color:black;
+	font-weight:bold;
+	font-family:sans-serif;
+	text-decoration:none;
+}
+
+.menu ul li:hover
+{
+	background-color:red;
+	box-shadow:0px 0px 5px red;
+	
+	
+}
+.menu ul li:hover a
+{
+	color:white;
+}
+.divider
+{
+	height:4px; 
+	
+	background:#4B4BB9; 
+	
+}
+.filter
+{
+	width:70px; 
+	height:25px; 
+	padding:8px; 
+	background:#4B4BB9; 
+	text-align:center; 
+	color:white; 
+	float:left;
+	
+}
+
+.menu2
+{
+	width:auto;
+	height:auto;
+	
+	background:yellow;
+}
+
+.menu2 ul
+{
+	list-style:none;
+	margin:0px;
+	margin:auto;
+	
+}
+.menu2 ul li
+{
+	
+	border:1px solid grey;
+	background:white;
+	height:auto;
+	text-align:center;
+	padding:10px;
+	cursor:pointer;
+	float:left;
+}
+.menu2 ul li:hover
+{
+	border-color:#4B4BB9;
+	box-shadow:0px 0px 5px #4B4BB9;
+	
+}
+
+.menu2 ul li:hover a
+{
+	color:#4B4BB9;
+}
+
+.menu2 ul li a
+{
+	font-size:12px;
+	color:black;
+	font-family:sans-serif;
+	text-decoration:none;
+}
+.view
+{	
+	width:auto;
+	float:right;
+	background:grey;
+	height:auto;
+	text-align:center;
+	padding:10px;
+	cursor:pointer;
+}
+.view a
+{
+	font-size:12px;
+	color:white;
+	font-family:sans-serif;
+	text-decoration:none;
+}
+.view:hover
+{
+	border-color:grey;
+	box-shadow:0px 0px 5px grey;
+	
+}
+
+
+
+.body
+{
+	
+	width:1000px;
+	height:1000px;
+	margin:auto;
+	
+}
+.image
+{
+	margin-top:20PX;
+	background-image:url('../img/8-biggest-rumored-features-of-the-Galaxy-S8.jpg');
+	background-repeat:no-repeat;
+	height:180px;
+	float:left;
+	width:330px;
+	margin-right:1px;
+	
+	
+
+}
+.image1
+{
+	margin-top:20PX;
+	background-image:url('../img/Galaxy-A-2017-series-premium-specs-and-features-at-an-affordable-price.jpg');
+	background-repeat:no-repeat;
+	height:180px;
+	float:left;
+	width:330px;
+	margin-right:1px;
+
+
+}
+.image2
+{
+	margin-top:20PX;
+	background-image:url('../img/PhoneArena-Awards-2016.jpg');
+	background-repeat:no-repeat;
+	height:180px;
+	float:left;
+	width:330px;
+	margin-right:1px;
+
+
+}
+.imgtxt
+{
+	background:black;
+	opacity:0.5;
+	margin-top:136px;
+	text-align:center;
+	color:white;
+	
+}
+.left
+{
+	height:auto;
+	border-right:1px dotted black;
+	margin-top:30px;
+	padding:4px;
+}
+.header1
+{
+	width:670px;
+	height:30px;
+	
+	background-color:#212121;
+	padding:15px;
+	
+}
+.navigate
+{
+	float:right;	
+}
+.page
+{
+	background:#e5e5e5;
+	color:#333;
+	height:14px;
+	width:14px;
+	text-decoration:none;
+	text-align:center;
+	float:left;
+	margin-right:5px;
+	font-size:11px;
+	padding:3px;
+	cursor:pointer;
+}
+.pageactive
+{
+	background:#218cc3;
+	color:#fff;
+	height:14px;
+	width:14px;
+	text-decoration:none;
+	text-align:center;
+	float:left;
+	margin-right:5px;
+	font-size:11px;
+	padding:3px;
+	cursor:pointer;
+}
+
+.page:hover
+{
+	background:#218cc3;
+	color:#fff;
+	
+}
+.subtext
+{
+	color:white;
+	width:200px;	
+	float:left;	
+
+}
+.subpage
+{
+	width:690px;
+	height:200px;
+	
+}
+.myclass
+{
+	text-align:center;
+	width:690px; 
+	height:200px; 
+	background:grey; 
+	border-radius:0px; 
+	display:none;
+	color:white;
+	padding:4px;
+	box-shadow:0px 0px 2px black;
+	font-size:20px;
+	float:left;
+}
+
+.footer
+{
+	background-color:#151515;
+	height:250px;
+	color:#757575;
+}
+.footerb a
+{
+	text-decoration:none;
+}
+.footerb ul
+{
+	list-style:none;
+	
+}
+.footerb ul li
+{
+	padding:4px;
+	
+	
+}
+.footerb ul li a
+{
+	color:#D5D2D2;
+	font-size:15px;
+}
+.footerb ul li:hover a
+{
+	color:white;
+	
+	
+}
+.footerb
+{
+	float:left; 
+	width:150px; 
+	height:150px; 
+	
+}
+.footerc
+{
+	width:200px;
+	float:left; 
+	height:110px;
+}
+.footerc ul 
+{
+	list-style:none;
+}
+
+.footerd
+{
+	width:200px;
+	float:left; 
+	height:110px;
+}
+.popup
+{
+	display:none;
+	
+}
+.transparent
+{
+	width:100%;
+	height:100%;
+	background:black;
+	opacity:0.5;
+	position:fixed;
+	top:0;
+	
+}
+.loginpopup
+{
+	width:400px;
+	height:200px;
+	position:fixed;
+	left:35%;
+	top:100px;
+	box-shadow:0px 0px 20px black;
+	background:white;
+
+}
+.main2
+{
+	padding-left:50px;
+	width:280px;
+	height:45px;
+
+}
+.left
+{
+
+float:left;
+}
+.right
+{
+height:45px;
+
+float:right;
+}
